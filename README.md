@@ -1,3 +1,6 @@
+## Credit
+All credit belongs to jammsen I just made it work for arm64
+
 ## Docker - TheForest Dedicated Server
 This includes a TheForest Dedicated Server based on Docker with Wine and an example config.
 
@@ -36,11 +39,6 @@ services:
       - /srv/tfds/steamcmd:/steamcmd
       - /srv/tfds/game:/theforest
 ```
-
-## Planned features in the future
-* Automated checks for updates based on SteamCMD in a given interval 
-* Automated updates based on checks
-* ~~Wrapper around the render server error~~
 
 ## Software used
 * Debian Slim Stable
